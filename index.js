@@ -1,4 +1,4 @@
-const { generatePassPhrase } = require("pass-phrase-generator");
+const { generateSeedPhrase } = require("multiwallet-seed-phrase-generator");
 const _ = require("lodash");
 
 function completePassphrase(incompletePhrase = []) {
@@ -8,9 +8,9 @@ function completePassphrase(incompletePhrase = []) {
     }
 
     const fullArray = _.concat(
-      generatePassPhrase()["12"],
-      generatePassPhrase()["18"],
-      generatePassPhrase()["24"],
+      generateSeedPhrase()["12"],
+      generateSeedPhrase()["18"],
+      generateSeedPhrase()["24"],
       incompletePhrase
     );
 
