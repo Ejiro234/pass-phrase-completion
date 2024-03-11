@@ -1,6 +1,6 @@
 {
   "name": "pass-phrase-completion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A utility package to generate complete passphrases of different lengths by combining a custom wordlist with an incomplete passphrase provided by the user.",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21",
-    "pass-phrase-generator": "^1.0.0"
+    "multiwallet-seed-phrase-generator": "^1.0.1"
   },
   "repository": {
     "type": "git",
